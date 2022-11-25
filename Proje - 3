@@ -1,0 +1,12 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Dizi elemanlarinin geliş sirasina gore root eleman 7'dir.
+5: 7’den kucuk, 7’nin solda bulunur.
+1: 7 ve 5'ten kucuk, 5’in solunda bulunur.
+8: 7’den buyuk, 7’nin saginda bulunur.
+3: 7 ve 5’ten kucuk ancak 1’den buyuk, 1’in saginda bulunur.
+6: 7’den kucuk ancak 5’ten buyuk, 5’in saginda bulunur.
+0: En kucuk eleman, agacin en solunda bulunur.
+9: 7 ve 8’den buyuk, 8’in saginda bulunur.
+4: 7 ve 5’ten kucuk, 1 ve 3’ten buyuk, 3’un saginda bulunur.
+2: 7 ve 5’ten kucuk, 1’den buyuk ve 3’ten kucuk, 3’un solunda bulunur.
